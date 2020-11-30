@@ -25,4 +25,8 @@ public class HelloController {
     public String sb(){
         return "sb   ";
     }
+    @RequestMapping("/马保国")
+    public String mabaoguo(){
+        return "年轻人不讲武德";
+    }
 }
