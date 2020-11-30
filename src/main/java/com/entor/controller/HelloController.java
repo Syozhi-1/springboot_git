@@ -23,6 +23,6 @@ public class HelloController {
 
     @RequestMapping("/sb")
     public String sb(){
-        return "sb";
+        return "sb   ";
     }
 }
