@@ -20,4 +20,9 @@ public class HelloController {
     public String hello(){
         return "Hello";
     }
+
+    @RequestMapping("/马保国")
+    public String mabaoguo(){
+        return "年轻人不讲武德";
+    }
 }
