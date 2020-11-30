@@ -20,4 +20,9 @@ public class HelloController {
     public String hello(){
         return "Hello";
     }
+
+    @RequestMapping("/sb")
+    public String sb(){
+        return "sb";
+    }
 }
